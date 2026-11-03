@@ -1,5 +1,6 @@
 [![Build status](https://github.com/Shopify/liquid/actions/workflows/liquid.yml/badge.svg)](https://github.com/Shopify/liquid/actions/workflows/liquid.yml)
 [![Inline docs](http://inch-ci.org/github/Shopify/liquid.svg?branch=master)](http://inch-ci.org/github/Shopify/liquid)
+[![Duel](https://raw.githubusercontent.com/Shopify/liquid/duel/badge/badge.svg)](https://github.com/sferik/duel-ruby)
 
 # Liquid template engine
 

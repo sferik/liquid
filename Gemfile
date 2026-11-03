@@ -22,6 +22,12 @@ end
 
 group :development do
   gem "webrick"
+
+  # Duel requires Ruby 3.4 or later
+  if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("3.4")
+    gem "duel", ">= 0.1.4"
+    gem "duel-retained", ">= 0.1.2"
+  end
 end
 
 group :test do
